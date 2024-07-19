@@ -33,6 +33,10 @@ module.exports = async () => {
           test: /\.glsl$/i,
           loader: "html-loader",
         },
+        {
+          test: /\.html$/i,
+          loader: "raw-loader",
+        },
       ],
     },
 

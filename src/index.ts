@@ -1,1 +1,1 @@
-alert("Webpack works");
+import * as content from "./svg.html";
